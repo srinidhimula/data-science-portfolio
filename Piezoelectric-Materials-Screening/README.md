@@ -15,13 +15,13 @@ It extracts, cleans, and structures raw simulation data and computes key piezoel
 - Materials informatics + scientific computing
 
 **Project Structure**
-data/ # Raw & cleaned testcase datasets
-notebooks/ # Preprocessing, Postprocessing and Visualization of results
-scripts/ # Parsing & processing scripts
-results_main/ # Final outputs and figures of complete dataset
-results_testcase/ # Results CSVs of sample testcases
-config.yaml
-README.md
+-data/ # Raw & cleaned testcase datasets
+-notebooks/ # Preprocessing, Postprocessing and Visualization of results
+-scripts/ # Parsing & processing scripts
+-results_main/ # Final outputs and figures of complete dataset
+-results_testcase/ # Results CSVs of sample testcases
+-config.yaml
+-README.md
 
 **Key Results**
 -Processed **~3000** materials and extracted piezoelectric tensor for **75%** of them
