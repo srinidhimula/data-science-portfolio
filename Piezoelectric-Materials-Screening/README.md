@@ -27,8 +27,8 @@ pieozelectric_materials_screening
 ```
 
 **Key Results**
--Processed **~3000** materials and extracted piezoelectric tensor for **75%** of them
--Extracted complete piezoelectric tensors from simulation outputs
--Computed key metrics (norm value of tensors, e_ij tensors)
--Identified **top 10** high-performance materials
--Found strong correlations between crystal symmetry and piezoelectric response
+- Processed **~3000** materials and extracted piezoelectric tensor for **75%** of them
+- Extracted complete piezoelectric tensors from simulation outputs
+- Computed key metrics (norm value of tensors, e_ij tensors)
+- Identified **top 10** high-performance materials
+- Found strong correlations between crystal symmetry and piezoelectric response
