@@ -1,0 +1,5 @@
+LIQBAP_FSR      5       2
+GAXQAZ_FSR      9       m
+PACGAE_FSR      9       m
+HOPDIB_FSR      143     3
+TAXHUX_FSR      5       2

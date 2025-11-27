@@ -1,0 +1,29 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=128
+#SBATCH -p thin
+#SBATCH -t 2-00
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=S.Mula@tudelft.nl
+#SBATCH --output="slurm_%j.out"
+#$ -cwd
+
+module load 2021
+module load VASP5/5.4.4.pl2-foss-2021a-CUDA-11.3.1
+
+export INPDIR=$PWD
+export TMPDIR=/scratch-shared/srinidhi/tmp_$SLURM_JOB_ID
+
+mkdir -p $TMPDIR
+
+cp $INPDIR/INCAR $TMPDIR/INCAR
+cp $INPDIR/POSCAR $TMPDIR/POSCAR
+cp $INPDIR/POTCAR $TMPDIR/POTCAR
+cp $INPDIR/KPOINTS $TMPDIR/KPOINTS
+echo submit directory $INPDIR
+cd $TMPDIR
+
+srun vasp_std
+
+cp $TMPDIR/*  $INPDIR
+
