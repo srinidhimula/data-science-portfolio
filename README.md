@@ -3,7 +3,7 @@
 Repository containing portfolio of data science projects (academic, business datasets) completed by me for academia, self learning and hobby purposes.
 Presented in the form of Python scripts and Jupyter Notebooks.
 
-**Contents**
+## Contents
 
 - **Workflow Automation, Data Analysis, and Visualization**
 
