@@ -27,5 +27,5 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest
+          pytest Piezoelectric-Materials-Screening/tests
 
