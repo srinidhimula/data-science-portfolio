@@ -1,9 +1,9 @@
-ase==3.25.0
-numpy==2.3.5
-pandas==2.3.3
-pymatgen==2025.6.14
-spglib==2.6.0
-scipy==1.16.0
+ase
+numpy
+pandas
+pymatgen
+spglib
+scipy
 pytest
 pyyaml
 
