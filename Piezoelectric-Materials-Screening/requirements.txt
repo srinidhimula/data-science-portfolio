@@ -1,9 +1,0 @@
-ase
-numpy
-pandas
-pymatgen
-spglib
-scipy
-pytest
-pyyaml
-

@@ -1,8 +1,0 @@
-alldatafiles: "data"
-calcdir: "data/mof_calcs" #your full path to where you want vasp calculations
-potcar_path: "data/potcars" #your full path to potcarfiles
-qmofbase: "data/qmofbase" #Path to where QMOF output files, structural and INCAR files are located for each MOF
-resultstestdir: "results_testcase" #your main path for results files
-scriptfiles: "scripts"
-density: 1000 #kpoints density
-resultsmaindir: "results_main"
