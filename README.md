@@ -1,4 +1,4 @@
-# Data Science Portfolio
+# Data Analytics Portfolio
 This repository serves as a landing page for my data science projects (academic, business datasets) completed by me for academia, self learning and hobby purposes.
 Presented in the form of Python scripts and Jupyter Notebooks.
 
